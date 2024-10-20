@@ -16,17 +16,25 @@ In this course, students will learn how the microcontroller works and how to pro
 - Embedded Operating Systems
 - Zephyr RTOS
 
-## Course Design
-
-The course will be delivered in a series of lectures and LAB exercises. Each lecture will cover two or three topics. The LAB exercises will be designed to reinforce the concepts learned in the lectures. Additionally, there will be one C technique in each lecture covering advanced C programming techniques.
-
 ## Prerequisites
 
 The students are expected to have a basic understanding of programming concepts and basic C programming.
 
+## Course Design
+
+The course will be delivered in a series of lectures and LAB exercises. Each lecture will cover two or three topics. The LAB exercises will be designed to reinforce the concepts learned in the lectures. Additionally, there will be one C technique in each lecture covering advanced C programming techniques.
+
 ## Course Outline
 
-TBD
+| Week  |                       Topics                       |    C Techniques    |          LAB          |
+| :---: | :------------------------------------------------: | :----------------: | :-------------------: |
+|   1   | Introduction, C Compilation Process, Memory Layout |    Preprocessor    |     STM32  Blink      |
+|   2   |       Program Execution, Executing in STM32        |       Macros       |         Debug         |
+|   3   |                Exceptions, IO APIs                 | Built-in Functions |        UART I         |
+|   4   |                Peripherals, Clocks                 |   GCC Extensions   |    UART II, Timer     |
+|   5   | Introduction to Software Development, More about C |   `container_of`   |       OOP in C        |
+
+TBD for week 6 and onwards.
 
 ## References
 
@@ -36,7 +44,10 @@ TBD
 - Websites
   - [Memfault Interrupt](https://interrupt.memfault.com/)
   - [Code Inside Out](https://www.codeinsideout.com/)
-
-> The textbooks are available in the [NTURT Google Drive](https://drive.google.com/drive/folders/1oXb_RW5tBzFfpt1J1HNARS3PcakvqrsZ?usp=drive_link) (limited to members of NTURT).
+- Open Courseware (Chinese)
+  - [Computer Architecture](https://ocw.nthu.edu.tw/ocw/index.php?page=course&cid=305&)
+  - [Operating Systems](https://ocw.nthu.edu.tw/ocw/index.php?page=course&cid=295&)
 
 The lecture slides and code examples will be aviailable in this repository.
+
+> The textbooks and lecture recordings are available in the [NTURT Google Drive](https://drive.google.com/drive/folders/1oXb_RW5tBzFfpt1J1HNARS3PcakvqrsZ?usp=drive_link) (limited to members of NTURT).
