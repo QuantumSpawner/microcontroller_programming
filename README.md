@@ -41,7 +41,7 @@ C technique in each lecture covering advanced C programming techniques.
 |   1   | Introduction, C Compilation Process, Memory Layout |    Preprocessor    |  STM32  Blink  |
 |   2   |           Program Execution, Exceptions            |       Macros       |     Debug      |
 |   3   |              I/O Models, Peripherals               | Built-in Functions |     UART I     |
-|   4   |           Using STM32Cude, More about C            |   GCC Extensions   | UART II, Timer |
+|   4   |            Using STM32MX, More about C             |   GCC Extensions   | UART II, Timer |
 |   5   |    Software Development, Embedded System Design    |   `container_of`   |    OOP in C    |
 
 TBD for week 6 and onwards.

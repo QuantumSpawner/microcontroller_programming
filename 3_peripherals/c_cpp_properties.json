@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "includePath": [
+                "Core/Inc",
+                "Drivers/CMSIS/Device/ST/STM32G4xx/Include",
+                "Drivers/CMSIS/Include",
+                "Drivers/STM32G4xx_HAL_Driver/Inc",
+                "Drivers/STM32G4xx_HAL_Driver/Inc/Legacy",
+                "<toolchain_path>/tools/arm-none-eabi/include",
+                "<toolchain_path>/tools/lib/gcc/arm-none-eabi/12.3.1/include",
+                "<toolchain_path>/tools/lib/gcc/arm-none-eabi/12.3.1/include-fixed"
+            ],
+            "defines": [
+                "STM32G474xx",
+                "USE_HAL_DRIVER"
+            ]
+        }
+    ],
+    "version": 4
+}
